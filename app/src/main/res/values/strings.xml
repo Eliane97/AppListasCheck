@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppListasCheck</string>
+    <string name="escriba_aqui">escriba_aqui</string>
+    <string name="fecha">fecha</string>
+    <string name="titulo">titulo</string>
+    <string name="guardar">guardar</string>
+    <string name="crear_nota">crear_nota</string>
+    <string name="leer_notas2">LEER NOTAS</string>
+    <string name="actualizar_notas2">actualizar notas</string>
+    <string name="borrar_nota2">borrar nota</string>
+</resources>

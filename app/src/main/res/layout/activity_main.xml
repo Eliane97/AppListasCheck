@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE5EC"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="335dp"
+        android:layout_height="155dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413">
+
+        <Button
+            android:id="@+id/bnCrearLista_"
+            android:layout_width="165dp"
+            android:layout_height="156dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/crear_nota"
+            android:textColor="#FAE0E4"
+            android:onClick="irAcrearLista"/>
+
+        <Button
+            android:id="@+id/bnLeerListas"
+            android:layout_width="165dp"
+            android:layout_height="156dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/leer_notas2"
+            android:textColor="#FAE0E4"
+            android:onClick="irAleerLista"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="155dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7">
+
+        <Button
+            android:id="@+id/bnActualizarLista"
+            android:layout_width="165dp"
+            android:layout_height="156dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/actualizar_notas2"
+            android:textColor="#FAE0E4" />
+
+        <Button
+            android:id="@+id/bnBorrarLista"
+            android:layout_width="165dp"
+            android:layout_height="156dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/borrar_nota2"
+            android:textColor="#FAE0E4" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="135dp"
+        android:layout_height="161dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.792"
+        app:srcCompat="@drawable/icono_casa" />
+
+</android.support.constraint.ConstraintLayout>

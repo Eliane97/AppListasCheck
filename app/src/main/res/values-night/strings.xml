@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="escriba_aqui">escriba_aqui</string>
+    <string name="fecha">fecha</string>
+    <string name="titulo">titulo</string>
+    <string name="guardar">guardar</string>
+    <string name="crear_nota">crear_nota</string>
+    <string name="actualizar_notas2">actualizar_notas</string>
+    <string name="leer_notas2">LEER NOTAS</string>
+    <string name="borrar_nota2">borar nota</string>
+</resources>
